@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Roboto_Condensed, Poppins } from "next/font/google";
+import { Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Poppins({
+const geistSans = Roboto_Condensed({
   variable: "--font-geist-sans",
   subsets: ["latin"],
   weight: "400"
 });
 
-const geistMono = Poppins({
+const geistMono = Roboto_Condensed({
   variable: "--font-geist-mono",
   subsets: ["latin"],
     weight: "400"

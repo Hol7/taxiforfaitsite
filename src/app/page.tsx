@@ -3,9 +3,9 @@
 import React from 'react';
 import { motion } from "motion/react"
 import Image from 'next/image'
-import { Phone, Calendar, CreditCard, Mail, MapPin, Download } from 'lucide-react';
+import { Phone, Calendar, Mail, MapPin, Download } from 'lucide-react';
 import Head from 'next/head';
-import myImage from "./images/man-car.jpg"
+// import myImage from "./images/man-car.jpg"
 
 export default function Home() {
   return (
@@ -44,9 +44,9 @@ export default function Home() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Votre taxi, à votre façon</h1>
-              <p className="text-lg mb-6">Abonnez-vous et déplacez-vous librement. Payez en espèces ou profitez d'un forfait adapté à vos besoins.</p>
+              <p className="text-lg mb-6">Abonnez-vous et déplacez-vous librement. Payez en espèces ou profitez d`un forfait adapté à vos besoins.</p>
               <div className="flex flex-wrap gap-4">
-                <a href="#telecharger" className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">Télécharger l'app</a>
+                <a href="#telecharger" className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">Télécharger l`app</a>
                 <a href="#abonnements" className="bg-transparent border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-green-600 transition">Nos forfaits</a>
               </div>
             </motion.div>
@@ -99,7 +99,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">✓</span>
-                    <span>Commandez un taxi à n'importe quel moment</span>
+                    <span>Commandez un taxi à n`importe quel moment</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">✓</span>
@@ -153,7 +153,7 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-bold text-green-600 mb-2">Nos Forfaits</h2>
-              <p className="text-lg text-gray-600">Choisissez l'option qui vous convient le mieux</p>
+              <p className="text-lg text-gray-600">Choisissez l`option qui vous convient le mieux</p>
             </motion.div>
             
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -206,8 +206,8 @@ export default function Home() {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-3xl font-bold mb-4">Téléchargez l'application</h2>
-                <p className="text-lg mb-6">Disponible sur App Store et Google Play Store. Commencez dès aujourd'hui à profiter de nos services de taxi à forfait!</p>
+                <h2 className="text-3xl font-bold mb-4">Téléchargez l`application</h2>
+                <p className="text-lg mb-6">Disponible sur App Store et Google Play Store. Commencez dès aujourd`hui à profiter de nos services de taxi à forfait!</p>
                 <div className="flex flex-wrap gap-4">
                   <a href="#" className="flex items-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition">
                     <Download size={20} className="mr-2" />
@@ -342,7 +342,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-xl font-bold mb-4 md:mb-0">TaxiForFait</div>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="#" className="hover:text-green-200">Conditions d'utilisation</a>
+              <a href="#" className="hover:text-green-200">Conditions d`utilisation</a>
               <a href="#" className="hover:text-green-200">Politique de confidentialité</a>
               <a href="#" className="hover:text-green-200">FAQ</a>
               <a href="#" className="hover:text-green-200">Carrières</a>
