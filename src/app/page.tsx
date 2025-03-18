@@ -296,7 +296,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-medium">Adresse</p>
-                        <p className="text-gray-600">Congo, Brazzaville 7RUE BAYAS - TOTO PaTO
+                        <p className="text-gray-600">Congo, Brazzaville 7RUE BAYAS - POTO POTO
                         CONGO, BRAZZAViLLE</p>
                       </div>
                     </div>
