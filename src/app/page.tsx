@@ -296,7 +296,8 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-medium">Adresse</p>
-                        <p className="text-gray-600">Congo, Brazzaville</p>
+                        <p className="text-gray-600">Congo, Brazzaville 7RUE BAYAS - TOTO PaTO
+                        CONGO, BRAZZAViLLE</p>
                       </div>
                     </div>
                     <div className="flex items-start">
