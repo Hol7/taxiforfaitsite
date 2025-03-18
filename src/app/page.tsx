@@ -305,7 +305,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-medium">Téléphone</p>
-                        <p className="text-gray-600">+242 XX XX XX XX</p>
+                        <p className="text-gray-600">+242 06 78 15 6 99</p>
                       </div>
                     </div>
                     <div className="flex items-start">
