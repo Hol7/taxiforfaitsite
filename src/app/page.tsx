@@ -158,9 +158,9 @@ export default function Home() {
             
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { duration: 'Par Heure', icon: <Calendar size={20} />, price: '2 000 FCFA', features: ['1 Heure --> 3500 F', '2 Heures --> 7000 F', '3 Heures --> 10500 F', '4 Heures 14000 F'] },
-                { duration: '2 Jours', icon: <Calendar size={20} />, price: '3 500 FCFA', features: ['Courses illimitées', 'Annulations gratuites', 'Support prioritaire'] },
-                { duration: '1 Semaine', icon: <Calendar size={20} />, price: '10 000 FCFA', features: ['Courses illimitées', 'Annulations gratuites', 'Support prioritaire', 'Réduction heures de pointe'] },
+                { duration: 'Par Heure', icon: <Calendar size={20} />, price: '', features: ['1 Heure --> 3500 F', '2 Heures --> 7000 F', '3 Heures --> 10500 F', '4 Heures 14000 F'] },
+                { duration: 'Par Jours', icon: <Calendar size={20} />, price: '', features: ['1 JOURNEE --> 1800 F ', '2 JOURNEE --> 30000 F ', 'DEMI JOURNEE --> 7500 F'] },
+                { duration: 'Par Semaine', icon: <Calendar size={20} />, price: '', features: ['1 SEMAINE --> 84000 F', '2 SEMAINES --> 168000 F',] },
                 { duration: '1 Mois', icon: <Calendar size={20} />, price: '35 000 FCFA', features: ['Courses illimitées', 'Annulations gratuites', 'Support VIP', 'Réduction heures de pointe', 'Chauffeurs premium'] }
               ].map((plan, index) => (
                 <motion.div 
