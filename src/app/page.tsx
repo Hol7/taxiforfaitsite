@@ -218,7 +218,7 @@ export default function Home() {
                       <div className="font-semibold">App Store</div>
                     </div>
                   </a>
-                  <a href="#" className="flex items-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition">
+                  <a href="https://play.google.com/store/apps/details?id=com.hol7.Taxiforfait" className="flex items-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition">
                     <Download size={20} className="mr-2" />
                     <div>
                       <div className="text-xs">Télécharger sur</div>
@@ -317,7 +317,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-medium">Email</p>
-                        <p className="text-gray-600">contact@taxiforfait.com</p>
+                        <p className="text-gray-600">contact@taxis-forfait.com</p>
                       </div>
                     </div>
                   </div>
