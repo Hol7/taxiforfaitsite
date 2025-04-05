@@ -19,7 +19,7 @@ export default function Home() {
       <header className="bg-green-600 text-white">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <div className="text-2xl font-bold">
-          {/* <Image src="/LogoVert.png" height={400} width={500} alt="Driver App Interface" className="rounded-lg w-full" /> */}
+          <Image src="/LogoVert.png" height={40} width={50} alt="Driver App Interface" className="rounded-lg w-full" />
           </div>
           <nav className="hidden md:flex space-x-6">
             <a href="#comment-ca-marche" className="hover:text-green-200">Comment ça marche</a>
