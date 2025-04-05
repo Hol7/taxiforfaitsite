@@ -18,7 +18,9 @@ export default function Home() {
 
       <header className="bg-green-600 text-white">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-          <div className="text-2xl font-bold">TaxiForFait</div>
+          <div className="text-2xl font-bold">
+          {/* <Image src="/LogoVert.png" height={400} width={500} alt="Driver App Interface" className="rounded-lg w-full" /> */}
+          </div>
           <nav className="hidden md:flex space-x-6">
             <a href="#comment-ca-marche" className="hover:text-green-200">Comment ça marche</a>
             <a href="#abonnements" className="hover:text-green-200">Abonnements</a>
@@ -46,7 +48,7 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Votre taxi, à votre façon</h1>
               <p className="text-lg mb-6">Abonnez-vous et déplacez-vous librement. Payez en espèces ou profitez d`un forfait adapté à vos besoins.</p>
               <div className="flex flex-wrap gap-4">
-                <a href="#telecharger" className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">Télécharger l`app</a>
+                <a href="https://play.google.com/store/apps/details?id=com.hol7.Taxiforfait&pcampaignid=web_share" className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">Télécharger l`app</a>
                 <a href="#abonnements" className="bg-transparent border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-green-600 transition">Nos forfaits</a>
               </div>
             </motion.div>
