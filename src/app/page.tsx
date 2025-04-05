@@ -48,7 +48,7 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Votre taxi, à votre façon</h1>
               <p className="text-lg mb-6">Abonnez-vous et déplacez-vous librement. Payez en espèces ou profitez d`un forfait adapté à vos besoins.</p>
               <div className="flex flex-wrap gap-4">
-                <a href="https://play.google.com/store/apps/details?id=com.hol7.Taxiforfait&pcampaignid=web_share" className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">Télécharger l`app</a>
+                <a href="https://play.google.com/store/apps/details?id=com.hol7.Taxiforfait" className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">Télécharger l`app</a>
                 <a href="#abonnements" className="bg-transparent border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-green-600 transition">Nos forfaits</a>
               </div>
             </motion.div>
