@@ -161,7 +161,7 @@ export default function Home() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 { duration: 'Par Heure', icon: <Calendar size={20} />, price: '', features: ['1 Heure --> 3500 F', '2 Heures --> 7000 F', '3 Heures --> 10500 F', '4 Heures 14000 F'] },
-                { duration: 'Par Jours', icon: <Calendar size={20} />, price: '', features: ['1 JOURNEE --> 1800 F ', '2 JOURNEE --> 30000 F ', 'DEMI JOURNEE --> 7500 F'] },
+                { duration: 'Par Jours', icon: <Calendar size={20} />, price: '', features: ['1 JOURNEE --> 18000 F ', '2 JOURNEE --> 30000 F ', 'DEMI JOURNEE --> 7500 F'] },
                 { duration: 'Par Semaine', icon: <Calendar size={20} />, price: '', features: ['1 SEMAINE --> 84000 F', '2 SEMAINES --> 168000 F',] },
                 { duration: 'Mois', icon: <Calendar size={20} />, price: '', features: ['1 MOIS --> 360600 F',] }
               ].map((plan, index) => (
